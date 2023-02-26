@@ -15,6 +15,8 @@ return (
         <h1>
           Olá sejam bem vindo!!!
         </h1>
+
+        <button className="button is-primary">Esse é um botao</button>
         </div>
     </main>
   </>

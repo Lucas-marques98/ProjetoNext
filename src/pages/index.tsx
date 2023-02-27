@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import React from 'react'
+import {Layout} from '../components'
 
 //utilizando typescript nos components REACT
 const Home: React.FC = () => {
@@ -12,11 +13,9 @@ return (
     </Head>
     <main >
       <div >
-        <h1>
-          Olá sejam bem vindo!!!
-        </h1>
 
-        <button className="button is-primary">Esse é um botao</button>
+        <Layout/>
+
         </div>
     </main>
   </>
